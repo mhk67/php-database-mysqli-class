@@ -1,7 +1,7 @@
 <?php
 include "database.php";
 $db=new database();
-$db->connect('localhost','root' ,'' ,'nlpfarsi' );
+$db->connect('localhost','user' ,'pass' ,'database_name' );
 
 $query="INSERT INTO `table_name` 
                     (`f1`,`f2`)
